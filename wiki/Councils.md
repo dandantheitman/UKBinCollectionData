@@ -876,16 +876,12 @@ Note: Pass the UPRN and postcode. To get the UPRN, you can use [FindMyAddress](h
 
 ### Buckinghamshire
 ```commandline
-python collect_data.py BuckinghamshireCouncil https://iapp.itouchvision.com/iappcollectionday/collection-day -u XXXXXXXX
+python collect_data.py BuckinghamshireCouncil https://www.buckinghamshire.gov.uk/waste-and-recycling/find-out-when-its-your-bin-collection/ -u XXXXXXXX
 ```
 Additional parameters:
 - `-u` - UPRN
 
 Note: Pass the UPRN. You can find it using [FindMyAddress](https://www.findmyaddress.co.uk/search).
-```
-
-
-Note: Pass the house name/number and postcode in their respective arguments, both wrapped in quotes.
 
 ---
 
